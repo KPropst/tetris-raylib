@@ -193,7 +193,6 @@ void scoreUpdate(int score, int x, int y, Texture2D one, Texture2D two, Texture2
     switch ((int)(vscore % (int)pow(10, i)) / (int)pow(10,(i-1))) {
       case 0:
         DrawTextureEx(zero, pos, 0, 3, WHITE);
-        printf("HELP IM STOCCUK\n");
         break;
       case 1:
         DrawTextureEx(one, pos, 0, 3, WHITE);
